@@ -30,8 +30,7 @@ At the end of course we will deploy our node.js app onto vanilla (i.e. fresh) VM
       - `sudo apt-get update && sudo apt-get install yarn`
   - Get source code
     - git clone 
-  - Open firewall
-    - 
+  - Open firewall for `tcp:8080` on GCP GUI
   - Start application: `yarn start`
 
 - Ansible
